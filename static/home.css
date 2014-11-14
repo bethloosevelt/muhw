@@ -32,8 +32,8 @@ html,body {
 }
 
 .menu span {
-    background:#000;
-    display:inline-block;
+    background:#E0E0E0;
+    display:block;
     line-height:1.3em;
     padding:0 1em;
     position:relative;
@@ -43,73 +43,5 @@ html,body {
     -ms-transition:     background-color 0.2s, margin-top 0.2s;  /* IE10 */
     -o-transition:      background-color 0.2s, margin-top 0.2s;  /* Opera 10.5+ */
     transition:         background-color 0.2s, margin-top 0.2s;
-}
-
-.articles {
-
-	height: 100%;
-	width: 100%;
-}
-.article {
-	height: 33%;
-	width: 100%;
-	margin-bottom: 6px; 
-	margin-top: 3px;
-	margin-left: 1px;
-	margin-right: 1px;
-}
-
-.articletitle {
-	font-size: 24px;
-	text-align: left;
-	color: #333333;
-	font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
-}
-
-.articleimageleft {
-	display: inline-block;
-	vertical-align: middle;
-    width:30%;
-    max-height:100%;
-    height: auto;
-	float: left;
-}
-
-
-.articleimageright {
-	display: inline-block;
-	vertical-align: middle;
-    width:30%;
-    max-height:100%;
-    height: auto;
-	float: right;
-}
-
-.articletext {
-	font-family: georgia,"times new roman",times,serif;
-	height: 100%;
-	width:  68%;
-	padding-left: 1%;
-	float: right;
-	overflow: hidden;
-
-	background: -webkit-linear-gradient(left, #F3F3F3 , white); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(right, #F3F3F3, white); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(right, #F3F3F3, white); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to right, #F3F3F3, white); /* Standard syntax */
-}
-
-.articletexttwo {
-	font-family: georgia,"times new roman",times,serif;
-	height: 100%;
-	width:  67%;
-	padding-left: 1%;
-	float: left;
-	overflow: hidden;
-
-	background: -webkit-linear-gradient(left, #F3F3F3 , white); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(right, #F3F3F3, white); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(right, #F3F3F3, white); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to right, #F3F3F3, white); /* Standard syntax */
 }
 
