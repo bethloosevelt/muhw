@@ -10,4 +10,5 @@ def hello():
     return render_template('index.html')
 
 if __name__ == "__main__":
-    run_simple("homestylebeatz.com", 80, app)
+    #run_simple("homestylebeatz.com", 80, app)
+    app.run()
