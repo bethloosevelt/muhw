@@ -5,7 +5,7 @@ $( function() { loadplayer(); });
 function music() {
 
 	contentDiv = $('#content');
-	contentDiv.toggle();
+	contentDiv.show();
 }
 
 function loadplayer() {
@@ -33,6 +33,6 @@ function shows() {
 function home() {
 	
 	contentDiv = $('#content');
-	contentDiv.toggle();
+	contentDiv.hide();
 }
 
