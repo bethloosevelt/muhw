@@ -17,25 +17,37 @@ body {
 
 
 .em {
-  margin-top: 90px;
+  margin-top: 50px;
   position: fixed;
   text-align: center;
   font-family: Gill Sans, Verdana;
   font-size: 75px;
-  line-height: 5px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: lighter; 
+  height: 75px;
   width: 150px;
 }
 
+.em:hover {
+    margin-top: 50px;
+    position: fixed;
+    text-align: center;
+    font-family: Gill Sans, Verdana;
+    font-size: 75px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter; 
+    height: 75px;
+    width: 150px;
+    color:#FFF;
+}
 
 .menu {
     position: fixed;
-    padding-top: 100px;
     padding-bottom: 100px; 
     text-align: center;
-    margin-top: 60px;
+    margin-top: 160px;
     /*margin-left: 60px;*/
     height: 200px;
     width: 150px;
