@@ -3,6 +3,8 @@
 
 <head>
         <meta charset="utf-8"/>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type=text/javascript src="{{ url_for('static', filename='muhw.js') }}"></script>
         <link rel="stylesheet" type="text/css" media="screen" href="/static/home.css" />
 </head>
@@ -11,13 +13,23 @@
 <body>
 
 
+<div id="bar" class="bar">
+
+<div class="em">M</div>
+
+</div>
+
+
 <div id="menubox" class="menu">
 
-	<div ondblclick="test()">Music</div>
-	<div>Shows</div>
+	<div onclick="music()">Music</div>
+	<div onclick="shows()">Shows</div>
 	<div>Sights</div>
 	<div>Merch</div>
 	<div>Words</div>    
+</div>
+
+<div id="content" class="content">
 
 </div>
 
