@@ -5,30 +5,75 @@
         <meta charset="utf-8"/>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script type=text/javascript src="{{ url_for('static', filename='muhw.js') }}"></script>
+       <!-- <script type=text/javascript src="{{ url_for('static', filename='muhw.js') }}"></script> -->
         <link rel="stylesheet" type="text/css" media="screen" href="/static/home.css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
 
+<div id="banner" class="banner"> 
 
+
+<div class="serviceinfo"> Services Sunday: 10am</div>
+
+<image class="bannerimage" src="/static/topimage.jpg"></image>
+
+<div class="churchname">
+	<span>second  congregational</span>
+	<span>UCC/First Presbyterian</span>
+	<span>Church   of   Rockford</span>
+</div>
+
+<div class="motto">
+<span>A welcoming, historic, and </span>
+<span>progressive community </span>
+<span>in the heart of Rockford</span>
+</div>
+
+<div class="address">
+
+<span>318 Church Street</span>
+<span>Rockford, IL</span>
+<span>815 963 8431</span>
+<span>815 965 3761</span>
+</div>
+
+</div>
 
 <div id="bar" class="bar"></div>
-<div onclick="home();" class="em">M</div>
-
 <div id="menubox" class="menu">
 
-	<div onclick="music();">Music</div>
-	<div onclick="shows();">Shows</div>
-	<div>Sights</div>
-	<div>Merch</div>
-	<div>Words</div>    
+	<div>Map</div>
+	<div>About</div>
+	<div>Community</div>
+	<div>Calendar</div>
+	<div>Media</div>
+	<div>I'm New</div>
+	<div>~social~</div>    
 </div>
 
-<div id="content" class="content">
+<div id"welcome" class="welcome">Welcome!</div>
 
+<div id="maincontent" class="maincontent">
+
+	<div id="welcomemessage" class="welcomemessage">
+	Imagine, if you will, a place which honors your questions about life and faith and ignites the spiritual fires that are the very passion of your being.  Imagine the power of belonging to a faith community that welcomes a joyful theological discussion among its people without judgment or criticism. Imagine a people of God who truly believe that God is still speaking, and that no one church or denomination holds the final word on God’s intent.  Explore the shared faith of a warm and accepting community of Christians who value your mind as well as your spirit. Imagine, if you will, a place that prepares you to live in the world as a disciple of Christ.
+	</div>
+
+	<div id="images" class="images"></div>
+	<div id="imagelabel" class="imagelabel">A quick look</div>
+	<div id="announcements" class="announcements">
+		<div class="announcementimage"></div>
+		<div class="announcementtext">
+			<p> Join us this friday for our annual youth lock-in!</p>
+		    <p>7pm (fri) - 12pm (sat)</p>
+		</div>
+	</div>
 </div>
+
+
 
 </body>
 </html>

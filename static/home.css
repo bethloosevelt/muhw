@@ -3,95 +3,277 @@ html,body {
 
    height: 100%;
    width: 100%;
+   overflow: hidden;
 
 }
 
 body {
-
-   background-image: url('/static/bg.png');
-   background-size: 100%;
-   background-repeat: no-repeat;
    margin:0;
    padding:0;
 }
 
-
-.em {
-  margin-top: 50px;
-  position: fixed;
-  text-align: center;
-  font-family: Gill Sans, Verdana;
-  font-size: 75px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: lighter; 
-  height: 75px;
-  width: 150px;
+.banner {
+  height: 160px;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(  228, 241, 254, .7);
+  display:inline-block;
+  /*text-align: center;*/
 }
 
-.em:hover {
-    margin-top: 50px;
+.churchname {
+    width: 29%;
+    margin-top: 25px;
+    margin-left: 35%;
+    margin-right: 2%;
+
+    background-color: rgba( 255, 255, 255, .68);
+
     position: fixed;
+
+    text-align: justify;
+
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+   
+
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 4px;
+    color:#000;
+
+
+}
+
+.churchname span {
+  display: block;
+  text-align: center;
+}
+
+.address {
+    
+    width: 13%;
+    padding-right: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    margin-left: 71%;
+
+    margin-top: 25px;
+
+    background-color: rgba( 255, 255, 255, .68);
+
+    position: fixed;
+
     text-align: center;
-    font-family: Gill Sans, Verdana;
-    font-size: 75px;
+
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color:#000;
+
+}
+
+.address span {
+
+  display: block;
+}
+
+.serviceinfo {
+
+   background-color: rgba( 255, 255, 255, .68);
+
+    position: fixed;
+
+    width: 13%;
+    padding-right: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: 71%;
+    margin-top: 105px;
+
+    text-align: justify;
+
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color:#000;
+}
+
+.motto {
+
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+    background-color: rgba( 255, 255, 255, .68);
+
+    width: 19%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: fixed;
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    text-align: justify;
+    vertical-align: middle;
+
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color:#000;
+
+
+
+}
+
+.motto span { display: block;}
+
+.bannerimage {
+  display:inline-block;
+  margin-top: -103px;
+  width: 33%;
+  margin-left: 33%;
+  position: fixed;
+}
+
+.menu  {
+        margin-top: -10px;
+        width: 100%;
+        position: fixed;
+        background-color: rgba(  68,108,179, 1);
+        content: "";
+        text-align: center;
+}
+
+.menu div{
+
+    overflow: hidden;
+
+    background-color: rgba(  68,108,179, 1);
+    display:inline-block;
+    height: 100%;
+    width: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: lighter; 
-    height: 75px;
-    width: 150px;
     color:#FFF;
-}
-
-.menu {
-    position: fixed;
-    padding-bottom: 100px; 
-    text-align: center;
-    margin-top: 160px;
-    /*margin-left: 60px;*/
-    height: 200px;
-    width: 150px;
-
-    /*background-color:rgba(255, 255, 255, 0.6);*/
-
-}
-
-
-.menu div {
-  height: 20%;
-  font-family: Gill Sans, Verdana;
-  font-size: 14px;
-  line-height: 37px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: lighter;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .menu div:hover {
-    height: 20%;
-    font-family: Gill Sans, Verdana;
+
+    overflow: hidden;
+    background-color: rgba( 68,108,179, 1);
+    display:inline-block;
+    height: 110%;
+    width: 10%;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    line-height: 37px;
+    line-height: 23px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: lighter;
-    color:#FFF;
+    color:#000;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-.bar {
-    text-align: center;
-    position: fixed;
-    /*margin-left: 60px;*/
-    height: 100%;
-    width: 150px;
-    background-color:rgba(255, 255, 255, 0.4);
+.maincontent{
+  width: 100%;
+  height: 100%;
+  display:inline-block;
+  background-color: rgba( 228, 241, 254, .8);
+}
+
+.welcome {
+  position: absolute;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  padding-left: 50px;
+  padding-right: 4px;
+  background-color: rgba( 68,108,179, .6);
+  color: #FFF;
+}
+
+.imagelabel {
+  float: right;
+  margin-top: 448px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  padding-right: 50px;
+  margin-right: -530px;
+  padding-left: 4px;
+  background-color: rgba( 68,108,179, .6);
+  color: #FFF;
 
 }
 
-.content {
-  position: fixed;
-  height: 90%;
-  width: 60%;
-  margin-top: 5%;
-  margin-left: 25%;
+.welcomemessage{
+  background-color: rgba(255, 255, 255,.6);
+  position: absolute;
+  margin-top: 83px;
+  margin-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  width: 460px;
+  height: 340px;
+  padding: 10px;
+}
+
+.images {
+
+  background-image: url(/static/usher.jpg);
+  background-size: 100% 100%;
+  float: right;
+  background-color: rgba(255,255,255,.6);
+  margin-top: 83px;
+  margin-right: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  text-align: justify;
+  height: 360px;
+  width: 480px;
+}
+
+.announcements{
+
+  background-color: rgba(255,255,255,.6);
+  margin-top: 83px;
+  position: absolute;
+  margin-left: 43%;
+  width: 14%;
+  height: 360px;
+}
+
+.announcementtext {
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  height: 50%;
+}
+
+.announcementimage {
+
+  height: 50%;
+  margin:5%;
+  background-image: url(/static/lockin.jpg);
+  background-size: 100% 100%;
+
 }
